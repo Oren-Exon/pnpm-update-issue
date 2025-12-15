@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 catalogs:
-  express4:
+  express4-21:
     express:
       specifier: ~4.21.2
       version: 4.21.2
@@ -15,7 +15,7 @@ importers:
   .:
     dependencies:
       express:
-        specifier: catalog:express4
+        specifier: catalog:express4-21
         version: 4.21.2
 
 packages:
